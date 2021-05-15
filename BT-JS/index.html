@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./BT.css">
+</head>
+
+<body>
+  <div style="border:3px solid grey">
+    <div class="BT" onclick="show('1',this)">
+      <p class="title">BT01: Viết chương triình hiển thị ngày giờ</p>
+    </div>
+    <div id="1" class="box">
+        <button class="btn" onclick=function1() >Kết quả</button>
+        <span id="result1"></span>
+    </div>
+  </div>
+  
+ <div style="border:3px solid grey">
+  <div class="BT" onclick="show('2',this)">
+    <p class="title">BT02: In ra ngày tháng năm theo định dạng mm/dd/yyyy mm-dd-yyy dd/mm/yyyy dd-mm-yyyy</p>
+  </div>
+  <div id="2" class="box">
+    <button class="btn" onclick=function2()>Kết quả</button>
+    <span id="result2"></span>
+  </div>
+
+ </div>
+ 
+ <div style="border:3px solid grey ">
+  <div class="BT" onclick="show('3',this)">
+    <p class="title">BT03: Kiểm tra chuỗi số nguyên đã cho có phải chuỗi tăng hay không</p>
+  </div>
+  <div id="3" class="box">
+    <table  width="700" style="text-align:center">
+      <tr>
+          <td width="200" height="35">
+              <label for="soa">Nhập chuỗi :</label>
+          </td>
+          <td width="700px">
+          <input style="border:none; border-bottom:1px solid red; width:800px; outline:none;" type="text" name="soa3" id="soa3">
+          </td>
+      </tr>
+       <tr>
+           <td colspan="1"  height="35">
+          <button class="btn" onclick="function3(document.getElementById('soa3').value)">Kết quả</button>  
+          <span id ="result3"></span>        
+            </td>
+       </tr>
+  </table>
+  </div>
+</div >
+  
+<div style="border:3px solid grey ">
+  <div class="BT" onclick="show('4',this)">
+    <p class="title">BT04: Thay thế mọi kí tự trong chuối đã cho với kí tự theo sau nó trong bảng chữ cái</p>
+  </div>
+  <div id="4" class="box">
+    <table  width="600" style="text-align:center">
+      <tr>
+          <td width="200" height="35">
+              <label for="soa">Nhập chuỗi ban đầu :</label>
+          </td>
+          <td width="400">
+          <input style="border:none; border-bottom:1px solid red; width:800px;  outline:none;" type="text" name="soa4" id="soa4">
+          </td>
+      </tr>
+       <tr>
+           <td colspan="1"  height="35">
+          <button class="btn" onclick="function4(document.getElementById('soa4').value)">Kết quả</button>  
+          <span id ="result4"></span>        
+            </td>
+       </tr>
+  </table>
+  </div>
+</div>
+ 
+  <div style="border:3px solid grey ;">
+    <div class="BT" onclick="show('5',this)">
+      <p class="title">BT05: Viết chương trình để tạo chuỗi mới bằng cách sử dụng 3 kí tự ở giữa của 1 chuỗi có độ dài lẻ. Độ dài của chuỗi phải lớn hơn hoặc bằng 3</p>
+    </div>
+    <div id="5" class="box">
+      <table  width="600" style="text-align:center">
+        <tr>
+            <td width="200" height="35">
+                <label for="soa5">Nhập chuỗi ban đầu :</label>
+            </td>
+            <td width="400">
+            <input style="border:none; border-bottom:1px solid red; width:800px;  outline:none;" type="text" name="soa5" id="soa5">
+            </td>
+        </tr>
+         <tr>
+             <td colspan="1"  height="35">
+            <button class="btn" onclick="function5(document.getElementById('soa5').value)">Kết quả</button>  
+            <span id ="result5"></span>        
+              </td>
+         </tr>
+    </table>
+    </div>
+  </div>
+  
+   <div  style="border:3px solid grey ;">
+    <div class="BT" onclick="show('6',this)">
+      <p class="title">BT06: Viết chương trình hiển thị phần tử xuất hiện nhiều nhất trong mảng</p>
+    </div>
+    <div id="6" class="box">
+      <table  width="600" style="text-align:center">
+        <tr>
+            <td width="200" height="35">
+                <label for="soa6">Nhập chuỗi ban đầu :</label>
+            </td>
+            <td width="400">
+            <input style="border:none; border-bottom:1px solid red; width:800px;  outline:none;" type="text" name="soa6" id="soa6">
+            </td>
+        </tr>
+         <tr>
+             <td colspan="1"  height="35">
+            <button class="btn" onclick="function6(document.getElementById('soa6').value)">Kết quả</button>  
+            <p id ="result6"></p>        
+              </td>
+         </tr>
+    </table>
+    </div>
+   </div>
+  
+   <div style="border:3px solid grey ;">
+    <div class="BT" onclick="show('7',this)">
+      <p class="title">BT07: Viết chương trình kiểm tra xem chuỗi có chứa chuỗi 'java' không</p>
+    </div>
+    <div id="7" class="box">
+      <table  width="600" style="text-align:center">
+        <tr>
+            <td width="200" height="35">
+                <label for="soa7">Nhập chuỗi  :</label>
+            </td>
+            <td width="400">
+            <input style="border:none; border-bottom:1px solid red; width:800px;  outline:none;" type="text" name="soa7" id="soa7">
+            </td>
+        </tr>
+         <tr>
+             <td colspan="1"  height="35">
+            <button class="btn" onclick="function7(document.getElementById('soa7').value)">Kết quả</button>  
+            <span id ="result7"></span>        
+              </td>
+         </tr>
+    </table>
+    </div>
+  </div>
+
+  <div style="border:3px solid grey ;">
+    <div class="BT" onclick="show('8',this)">
+      <p class="title">BT08: Viết hàm để lấy tên tháng từ 1 số cụ thể</p>
+    </div>
+    <div id="8" class="box">
+      <table  width="600" style="text-align:center">
+        <tr>
+            <td width="200" height="35">
+                <label for="soa5">Nhập chuỗi ban đầu :</label>
+            </td>
+            <td width="400">
+            <input style="border:none; border-bottom:1px solid red; width:800px;  outline:none;" type="text" name="soa8" id="soa8">
+            </td>
+        </tr>
+         <tr>
+             <td colspan="1"  height="35">
+            <button class="btn" onclick="function8(document.getElementById('soa8').value)">Kết quả</button>  
+            <p id ="result8"></p>        
+              </td>
+         </tr>
+    </table>
+    </div>
+  </div>
+
+  <div style="border:3px solid grey ;">
+    <div class="BT" onclick="show('9',this)">
+      <p class="title">BT09: Tìm từ có độ dài lớn nhất trong xâu</p>
+    </div>
+    <div id="9" class="box">
+      <table  width="600" style="text-align:center">
+        <tr>
+            <td width="200" height="35">
+                <label for="soa9">Nhập chuỗi ban đầu :</label>
+            </td>
+            <td width="400">
+            <input style="border:none; border-bottom:1px solid red; width:800px;  outline:none;" type="text" name="soa9" id="soa9">
+            </td>
+        </tr>
+         <tr>
+             <td colspan="1"  height="35">
+            <button class="btn" onclick="function9(document.getElementById('soa9').value)">Kết quả</button>  
+            <p id ="result9"></p>        
+              </td>
+         </tr>
+    </table>
+    </div>
+  </div>
+
+  <div style="border:3px solid grey ;">
+    <div class="BT" onclick="show('10',this)">
+      <p class="title">BT10:Nhập 2 số và xuất ra các số nguyên tố trong phạm vi 2 số đó </p>
+    </div>
+    <div id="10" class="box">
+      <table  width="600" style="text-align:center">
+        <tr>
+            <td width="200" height="35">
+                <label for="soa10a">Nhập số đầu</label>
+            </td>
+            <td width="400">
+            <input style="border:none; border-bottom:1px solid red; width:800px;  outline:none;" type="text" name="soa10a" id="soa10a">
+            </td>
+        </tr>
+        <tr>
+          <td width="200" height="35">
+              <label for="soa10b">Nhập số cuối</label>
+          </td>
+          <td width="400">
+          <input style="border:none; border-bottom:1px solid red;width:800px;   outline:none;" type="text" name="soa10b" id="soa10b">
+          </td>
+      </tr>
+         <tr>
+             <td colspan="1"  height="35">
+            <button class="btn" onclick="function10(document.getElementById('soa10a').value,document.getElementById('soa10b').value )">Kết quả</button>  
+            <p id ="result10"></p>        
+              </td>
+         </tr>
+    </table>
+    </div>
+  </div>  
+</body>
+<script>
+  function show(boxName, elmnt) {
+    listBox = document.getElementsByClassName("box");
+    for (i = 0; i < listBox.length; i++) {
+      listBox[i].style.display = "none";
+    }
+    document.getElementById(boxName).style.display = "block";
+  }
+
+  function function1()
+  {
+    let today=new Date();
+    document.getElementById("result1").innerHTML = "Date: "+today.getDate() + " Hour: "+today.getHours();
+
+  }
+
+  function function2()
+  {
+    let today=new Date();
+    d=today.getDate();
+    m=today.getMonth()+1;
+    y=today.getFullYear();
+    document.getElementById("result2").innerHTML =m +"-"+d+"-"+y+"                 "+ m +"/"+d+"/"+y+"             "+d +"-"+m+"-"+y+"            "+ d +"/"+m+"/"+y;
+
+  }
+  function function3(x)
+  {
+    let a=""+x;
+    for (let i=0;i<a.length-1;i++)
+    {
+        if(a[i]>a[i+1]) 
+        {
+           document.getElementById("result3").innerHTML =("False")
+            return;
+        }
+    }
+    document.getElementById("result3").innerHTML =("True")
+
+  }
+
+  function function4(st)
+  {
+    let s="";
+  for (let i=0;i<st.length;i++)
+  {   let count;
+      count=st[i].charCodeAt();
+      s+=String.fromCharCode(count+1);
+  }
+  document.getElementById("result4").innerHTML = s;
+  }
+
+  function function5(s)
+  {
+    let st="";
+   let n=s.length;
+  if (n>=3)
+  {
+    if (n %2!=0)
+    {
+      i=Math.floor(n/2)-1;
+      for (let j=i;j<i+3;j++)    {st+=s[j];  }
+      document.getElementById("result5").innerHTML = st;
+
+    }
+    else
+    {  document.getElementById("result5").innerHTML = " Vui lòng nhập chuỗi có độ dài lẻ";
+    }
+
+  }
+  else {
+    document.getElementById("result5").innerHTML = " Vui lòng nhập chuỗi có độ dài lớn hơn 3 và lẻ";
+  }
+  }
+function function6(str )
+ {   var arr = str.split(" ");
+     for (let i=0;i<arr.length;i++)    // str ==> arr number
+     {
+        arr[i]=parseInt(arr[i]);
+     }
+  arr.sort(function(a,b)    
+  {
+    return a-b;
+  })
+   let i=0;
+   let max=0;
+  while(i< arr.length)
+  {
+    let count=1;
+    while (arr[i]==arr[i+1] ) { count+=1; i++;} 
+    if (count>max) 
+    {
+        max=count;
+        s=arr[i];
+    }  
+    i++;
+  }
+  document.getElementById("result6").innerHTML ="Phần tử: "+s+" xuất hiện nhiều nhất "+max+"lan";    
+
+
+
+ }     
+ function function7(st)
+ {
+    let s="java";
+    let result ;
+    result= st.indexOf (s)> -1; 
+    document.getElementById("result7").innerHTML =result;   
+ }
+ function function8(i)
+ {
+   switch (i)
+   {
+     case "1":
+       {  document.getElementById("result8").innerHTML ="Tháng Một";
+          break;
+       }
+       case "2":
+       {  document.getElementById("result8").innerHTML ="Tháng Hai";
+          break;
+       }
+       case "3":
+       {  document.getElementById("result8").innerHTML ="Tháng Ba";
+          break;
+       }
+       case "4":
+       {  document.getElementById("result8").innerHTML ="Tháng Tư";
+          break;
+       }case "5":
+       {  document.getElementById("result8").innerHTML ="Tháng Năm";
+          break;
+       }case "6":
+       {  document.getElementById("result8").innerHTML ="Tháng Sáu";
+          break;
+       }case "7":
+       {  document.getElementById("result8").innerHTML ="Tháng Bảy";
+          break;
+       }case "8":
+       {  document.getElementById("result8").innerHTML ="Tháng Tám";
+          break;
+       }case "9":
+       {  document.getElementById("result8").innerHTML ="Tháng Chín";
+          break;
+       }case "10":
+       {  document.getElementById("result8").innerHTML ="Tháng Mười";
+          break;
+       }case "11":
+       {  document.getElementById("result8").innerHTML ="Tháng Mười Một";
+          break;
+       }case "12":
+       {  document.getElementById("result8").innerHTML ="Tháng Mười Hai";
+          break;
+       }
+       default:{
+        document.getElementById("result8").innerHTML ="Vui lòng nhập từ tháng 1 đến 12";
+       }
+   }
+ }
+ function xauDaiNhat(sentence) {
+  return sentence.split(' ').reduce(function(longestWord, word){ 
+            return word.length > longestWord.length ? word : longestWord; }); 
+  } 
+function function9(a)
+  {
+    document.getElementById("result9").innerHTML =xauDaiNhat(a);
+  }
+
+ function ktrNguyenTo(a)
+ { 
+   let result=true;
+   if (a<=1) 
+   {
+     result=false;
+     return;
+   }
+   if(a==2 || a==3) {result=true; return result;}
+   for (let i=2;i<Math.sqrt(a);i++)
+   {
+     if (a%i==0) {result= false; return result;}
+   }
+   return result;
+ }
+ function function10(a,b)
+ { let x=parseInt(a);
+   let y=parseInt(b);
+   let st="";
+   for (let i=x;i<=y;i++)  {
+     if (ktrNguyenTo(i))   {st+=i+" ";}
+
+   }
+   document.getElementById("result10").innerHTML =st;
+ }
+ 
+ 
+</script>
+
+</html>

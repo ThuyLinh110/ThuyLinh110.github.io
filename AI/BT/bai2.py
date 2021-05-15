@@ -1,0 +1,6 @@
+arr =input ('Enter str: ').split(",")
+arr=arr.split("[")
+arr.split("]")
+arr=list(set(arr))
+arr.sort()
+print(arr)

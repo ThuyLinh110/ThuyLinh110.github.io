@@ -1,0 +1,39 @@
+body{
+    height: 300vh;
+    width: 200vw;
+}
+.container{
+    width:500px;
+    height: 250px;
+    border: 1px solid;
+    margin-left: 200px;
+    margin-top:50px;
+    background-color: blue;
+    position: relative;
+}
+.item{
+    height: 60px;
+    width:60px;
+    margin: 10px;
+}
+.item-relative{
+    top: 30px;
+    left:100px;
+    position:relative;
+}
+.item-absolute{
+    top: 30px;
+    left:100px;
+    position:absolute;
+}
+.item-fixed{
+    top: 30px;
+    left:100px;
+    position:fixed;
+}
+.item-sticky{
+    top: 30px;
+    left:100px;
+    position:sticky;
+}
+

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body onload="loadData()">
+     <h1>BÀI TẬP JS CƠ BẢN</h1>
+        
+           
+                    <div class="container1">
+                         <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off"> 
+                            <div class="box">
+                                <label>Item Name</label>
+                                <br>
+                                <input class="style-input" type="text" name="itemName" id="itemName" maxlength="10" />
+                                <p id="err-name" class="notice-err"></p>
+                                
+                       
+                            </div>
+    
+                            <div class="box">
+                                <label>Category</label>
+                                <br>
+                                <select class="style-input" type="text" name="category" id="category" >
+                                    <option value="No Selected">No Selected</option>
+                                    <option value="Category1">Category1</option>
+                                    <option value="Category2">Category2</option>
+                                    <option value="Category3">Category3</option>
+                
+                                </select>
+                                <p id="err-category" class="notice-err"></p>
+    
+                            </div>
+                            <div class="box">
+                              
+                                    <input type='file' id="imgInp" />
+                                    <img id="blah" src="#" alt="your image" /> 
+                                     <p id="err-file" class="notice-err"></p>
+                            </div>
+                            
+                            <div  class="box">
+                                <input type="submit" style="background-color: blue; border: none; height:30px; color: white" value="Submit"> 
+                            </div>
+                         </form> 
+                        </div>
+                   
+               
+                
+               
+         
+                    <table class="list" id="List">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Item Name</th>
+                                <th>Category</th>
+                                <th>Image</th>
+                                <th>Action</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+    
+                        </tbody>
+                    </table>
+               
+        
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./script.js">
+     </script> 
+</body>
+
+</html>

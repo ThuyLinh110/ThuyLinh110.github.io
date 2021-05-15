@@ -1,0 +1,82 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+body > table{
+   width: 100%;
+}
+
+table{
+   border-collapse: collapse;
+}
+table.list{
+   width:100%;
+}
+
+td, th {
+   border: 1px solid #dddddd;
+   text-align: left;
+   padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+   background-color: #dddddd;
+}
+.container1{
+   width: 90%;
+   height: 40%;
+   border: 2px solid rgb(168, 162, 162);
+   margin: auto;
+   padding: 10px;
+   border-radius: 5px;
+   display:flex;
+}
+.box{
+   width: 25%;
+   height: 90%;
+   margin: 30px;
+}
+.style-input{
+   
+    width:200px; 
+    height:20px;
+}
+
+.container2{
+   width: 95%;
+   height: 10%;
+}
+img{
+   width: 200px;
+   height:100px;
+}
+.notice-err{
+   color:red;
+   font-size: 15px;
+}
+h1{
+   margin: 10px 50px 10px;
+}
+form{
+   display:inline-flex;
+}
+.Edit{
+   background-color: red;
+   color: white;
+   border-radius: 5px;
+   width: 60px;
+   height: 40px;
+}
+.Delete{
+   background-color: rgb(23, 92, 156);
+   color: white;
+   border-radius: 5px;
+   width: 60px;
+   height: 40px;
+}
+.save{
+   display: none;
+}
+.cancel{
+   display: none;
+}

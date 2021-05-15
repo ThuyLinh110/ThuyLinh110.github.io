@@ -1,0 +1,45 @@
+.full-screen{
+  height: 100vh;
+  width: 100vw;
+}
+body{
+    margin: 0;
+    background-color: rgb(233, 80, 151);
+}
+.item{
+    width: 60px;
+    height: 60px;
+    margin: 250px auto;
+    background-color:white;
+    animation: item-rotate 1.5s infinite ease-in-out;
+}
+@keyframes item-rotate {
+    0%{
+      transform: perspective(100px) rotateX(0deg) rotateY(0deg);  
+    }
+    50%{
+        transform: perspective(100px)rotateX(-180deg) rotateY(0deg);
+    }
+    100%{
+        transform: perspective(100px) rotateX(-180deg) rotateY(-180deg);
+    }
+}
+.container{
+  margin: 250px auto;
+  width: 150px;
+  height:20px;
+}
+.item2{
+    width: 10px;
+    height: 10px;
+    margin-right:5px;
+    background:white;
+    border-radius:100%;
+    display:inline-block;
+    text-align:center;
+}
+.item2:hover{
+   width:15px;
+   height:15px;
+   opacity: 0.5;
+}
