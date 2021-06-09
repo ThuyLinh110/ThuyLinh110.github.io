@@ -4,21 +4,31 @@ import json
 import requests
 import playsound
 import os
+import keyboard
 class SpeechToText:
-    def __init__(self):
-        r= sr.Recognizer()
-        with sr.Microphone() as source:
-            print("Say something.........")
-            self.__inp = r.record(source,duration=2) 
+    def __init__(self):  
+        with sr.Microphone() as source:   
+            print("Press Enter to say ")
+            while True: 
+             try: 
+                if keyboard.is_pressed('Enter'):
+                    print("say something.....")
+                    r= sr.Recognizer()  
+                    self.__inp = r.record(source,duration=2)
+                    break  
+             except:
+                 break
+
     def changeSpeechToText(self):
-        
         try:
             self.__out=sr.Recognizer().recognize_google(self.__inp,language="vi")
             print("You said: "+ self.__out)
         except sr.UnknownValueError:
             print("Google Speech Recognition could not understand audio")
+            self.__out=" "
+            print("You said: "+ self.__out)
         except sr.RequestError as e:
-            print("could not request results from Google Speech Recognition")
+            print("Could not request results from Google Speech Recognition")
     def get_out(self):
         return self.__out
 
@@ -35,7 +45,7 @@ class ChatBot:
         self.__url=r" https://wsapi.simsimi.com/190410/talk"
         self.__headers={
             'Content-Type':"application/json",
-            'x-api-key':r"foN2E.XDe4qjB72Rxls29g96xObaw-mvYgLtUrVy"
+            'x-api-key':r"e2wqSRg0i7ppJPD8aGVLvD6EIsy6J-BzeXyxPCcf"
         }
     def chat(self):
         while (True):
@@ -51,4 +61,5 @@ class ChatBot:
             voice1.changeTextToSpeech()
 chatbot=ChatBot()
 chatbot.chat()
+
 
