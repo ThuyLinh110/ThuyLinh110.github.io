@@ -14,7 +14,7 @@ class SpeechToText:
                 if keyboard.is_pressed('Enter'):
                     print("say something.....")
                     r= sr.Recognizer()  
-                    self.__inp = r.record(source,duration=2)
+                    self.__inp = r.record(source,duration=5)
                     break  
              except:
                  break
