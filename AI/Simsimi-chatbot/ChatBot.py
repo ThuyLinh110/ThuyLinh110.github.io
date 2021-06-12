@@ -7,7 +7,7 @@ class ChatBot:
         self.url=r" https://wsapi.simsimi.com/190410/talk"
         self.headers={
             'Content-Type':"application/json",
-            'x-api-key':r"e2wqSRg0i7ppJPD8aGVLvD6EIsy6J-BzeXyxPCcf"
+            'x-api-key':r"iNMdtwZ9J997_ARhm06s3LMcvgWIdBq7vt3ejYMf"
         }
         self.inp=SpeechToText()
         self.out=TextToSpeech('simsimi.mp3')
@@ -15,9 +15,13 @@ class ChatBot:
         while (True):   
             self.inp.changeSpeechToText() 
             self.message=self.inp.get_out()
+            if self.message=='dừng lại':
+                break
+                print("The conversation stopped")
             self.payload ="{\n\t\"utext\": \""+ self.message +"\", \n\t\"lang\": \"vi\" \n}"
             self.payload=self.payload.encode("utf-8")
             response =requests.post(self.url,data=self.payload,headers=self.headers)
-            response=json.loads(response.text)
-            print ("Simsimi : ",response['atext'])
-            self.out.changeTextToSpeech(response['atext'])
+            if response.status_code==200:
+                response=json.loads(response.text)
+                print ("SIMSIMI : ",response['atext'])
+                self.out.changeTextToSpeech(response['atext'])
