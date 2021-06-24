@@ -1,4 +1,3 @@
-
 import cv2
 import numpy as np 
 
@@ -36,7 +35,6 @@ def crop_Rectangle(img,contours):
     img1 = cv2.resize(out, dim, interpolation = cv2.INTER_AREA)
     return img1
 
-
 def crop_Number(img,cnts):
     num = 0
     for c in cnts:
@@ -45,24 +43,21 @@ def crop_Number(img,cnts):
             x,y,w,h = cv2.boundingRect(c)
             ROI = img[y:y+h, x:x+w]
             img=cv2.rectangle(img, (x,y), (x+w,y+h), (0,0,255), 2)
-            cv2.imshow('ROI_{}'.format(num), ROI)
+            cv2.imwrite('./out_put/ROI_{}.png'.format(num), ROI)
             num += 1
         
   
-img = cv2.imread('image6.jpg')
-
-
+img = cv2.imread('./image/image4.jpg')
 edged = cv2.Canny(Gray_img(img), 30, 200)
 
 out =crop_Rectangle(img,find_contour(edged))      # crop rectangle
-cv2.imshow('Origin', img)
-
-
 thresh = cv2.threshold(Gray_img(out), 0, 255, cv2.THRESH_BINARY_INV + cv2.THRESH_OTSU)[1]
 
+cv2.imshow('Origin', img)
+cv2.imwrite('./out_put/New_img.png',img)
 crop_Number(out,find_contour(thresh))
 cv2.imshow('crop',out)
-
+cv2.imwrite('./out_put/crop.png',out)
 
 cv2.waitKey(0)
 
