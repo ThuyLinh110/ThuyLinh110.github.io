@@ -1,0 +1,902 @@
+[
+    {
+        "Math": 77,
+        "Literature": 62
+    },
+    {
+        "Math": 87,
+        "Literature": 34
+    },
+    {
+        "Math": 38,
+        "Literature": 30
+    },
+    {
+        "Math": 23,
+        "Literature": 88
+    },
+    {
+        "Math": 42,
+        "Literature": 85
+    },
+    {
+        "Math": 26,
+        "Literature": 66
+    },
+    {
+        "Math": 17,
+        "Literature": 81
+    },
+    {
+        "Math": 75,
+        "Literature": 88
+    },
+    {
+        "Math": 88,
+        "Literature": 70
+    },
+    {
+        "Math": 78,
+        "Literature": 13
+    },
+    {
+        "Math": 20,
+        "Literature": 71
+    },
+    {
+        "Math": 57,
+        "Literature": 65
+    },
+    {
+        "Math": 37,
+        "Literature": 61
+    },
+    {
+        "Math": 62,
+        "Literature": 30
+    },
+    {
+        "Math": 21,
+        "Literature": 70
+    },
+    {
+        "Math": 23,
+        "Literature": 25
+    },
+    {
+        "Math": 78,
+        "Literature": 39
+    },
+    {
+        "Math": 5,
+        "Literature": 69
+    },
+    {
+        "Math": 79,
+        "Literature": 79
+    },
+    {
+        "Math": 27,
+        "Literature": 43
+    },
+    {
+        "Math": 74,
+        "Literature": 8
+    },
+    {
+        "Math": 71,
+        "Literature": 30
+    },
+    {
+        "Math": 75,
+        "Literature": 18
+    },
+    {
+        "Math": 60,
+        "Literature": 14
+    },
+    {
+        "Math": 38,
+        "Literature": 18
+    },
+    {
+        "Math": 70,
+        "Literature": 87
+    },
+    {
+        "Math": 34,
+        "Literature": 40
+    },
+    {
+        "Math": 10,
+        "Literature": 9
+    },
+    {
+        "Math": 44,
+        "Literature": 33
+    },
+    {
+        "Math": 43,
+        "Literature": 81
+    },
+    {
+        "Math": 64,
+        "Literature": 86
+    },
+    {
+        "Math": 85,
+        "Literature": 12
+    },
+    {
+        "Math": 34,
+        "Literature": 66
+    },
+    {
+        "Math": 27,
+        "Literature": 35
+    },
+    {
+        "Math": 88,
+        "Literature": 80
+    },
+    {
+        "Math": 35,
+        "Literature": 69
+    },
+    {
+        "Math": 75,
+        "Literature": 30
+    },
+    {
+        "Math": 85,
+        "Literature": 75
+    },
+    {
+        "Math": 15,
+        "Literature": 56
+    },
+    {
+        "Math": 87,
+        "Literature": 7
+    },
+    {
+        "Math": 75,
+        "Literature": 70
+    },
+    {
+        "Math": 68,
+        "Literature": 39
+    },
+    {
+        "Math": 80,
+        "Literature": 19
+    },
+    {
+        "Math": 79,
+        "Literature": 34
+    },
+    {
+        "Math": 27,
+        "Literature": 85
+    },
+    {
+        "Math": 66,
+        "Literature": 61
+    },
+    {
+        "Math": 19,
+        "Literature": 94
+    },
+    {
+        "Math": 35,
+        "Literature": 56
+    },
+    {
+        "Math": 26,
+        "Literature": 76
+    },
+    {
+        "Math": 29,
+        "Literature": 28
+    },
+    {
+        "Math": 25,
+        "Literature": 43
+    },
+    {
+        "Math": 24,
+        "Literature": 4
+    },
+    {
+        "Math": 25,
+        "Literature": 7
+    },
+    {
+        "Math": 28,
+        "Literature": 61
+    },
+    {
+        "Math": 43,
+        "Literature": 81
+    },
+    {
+        "Math": 25,
+        "Literature": 65
+    },
+    {
+        "Math": 75,
+        "Literature": 25
+    },
+    {
+        "Math": 20,
+        "Literature": 87
+    },
+    {
+        "Math": 85,
+        "Literature": 37
+    },
+    {
+        "Math": 26,
+        "Literature": 14
+    },
+    {
+        "Math": 15,
+        "Literature": 14
+    },
+    {
+        "Math": 24,
+        "Literature": 13
+    },
+    {
+        "Math": 88,
+        "Literature": 75
+    },
+    {
+        "Math": 83,
+        "Literature": 18
+    },
+    {
+        "Math": 75,
+        "Literature": 96
+    },
+    {
+        "Math": 19,
+        "Literature": 43
+    },
+    {
+        "Math": 65,
+        "Literature": 41
+    },
+    {
+        "Math": 65,
+        "Literature": 63
+    },
+    {
+        "Math": 71,
+        "Literature": 39
+    },
+    {
+        "Math": 6,
+        "Literature": 25
+    },
+    {
+        "Math": 72,
+        "Literature": 87
+    },
+    {
+        "Math": 90,
+        "Literature": 39
+    },
+    {
+        "Math": 21,
+        "Literature": 84
+    },
+    {
+        "Math": 28,
+        "Literature": 19
+    },
+    {
+        "Math": 35,
+        "Literature": 57
+    },
+    {
+        "Math": 77,
+        "Literature": 63
+    },
+    {
+        "Math": 16,
+        "Literature": 12
+    },
+    {
+        "Math": 71,
+        "Literature": 65
+    },
+    {
+        "Math": 74,
+        "Literature": 68
+    },
+    {
+        "Math": 75,
+        "Literature": 26
+    },
+    {
+        "Math": 12,
+        "Literature": 9
+    },
+    {
+        "Math": 63,
+        "Literature": 35
+    },
+    {
+        "Math": 72,
+        "Literature": 44
+    },
+    {
+        "Math": 39,
+        "Literature": 25
+    },
+    {
+        "Math": 71,
+        "Literature": 86
+    },
+    {
+        "Math": 79,
+        "Literature": 19
+    },
+    {
+        "Math": 18,
+        "Literature": 75
+    },
+    {
+        "Math": 24,
+        "Literature": 71
+    },
+    {
+        "Math": 75,
+        "Literature": 20
+    },
+    {
+        "Math": 71,
+        "Literature": 6
+    },
+    {
+        "Math": 38,
+        "Literature": 30
+    },
+    {
+        "Math": 75,
+        "Literature": 15
+    },
+    {
+        "Math": 23,
+        "Literature": 94
+    },
+    {
+        "Math": 84,
+        "Literature": 63
+    },
+    {
+        "Math": 60,
+        "Literature": 25
+    },
+    {
+        "Math": 36,
+        "Literature": 65
+    },
+    {
+        "Math": 86,
+        "Literature": 9
+    },
+    {
+        "Math": 19,
+        "Literature": 65
+    },
+    {
+        "Math": 30,
+        "Literature": 7
+    },
+    {
+        "Math": 66,
+        "Literature": 93
+    },
+    {
+        "Math": 75,
+        "Literature": 12
+    },
+    {
+        "Math": 57,
+        "Literature": 17
+    },
+    {
+        "Math": 24,
+        "Literature": 6
+    },
+    {
+        "Math": 25,
+        "Literature": 58
+    },
+    {
+        "Math": 5,
+        "Literature": 25
+    },
+    {
+        "Math": 39,
+        "Literature": 75
+    },
+    {
+        "Math": 91,
+        "Literature": 60
+    },
+    {
+        "Math": 75,
+        "Literature": 57
+    },
+    {
+        "Math": 79,
+        "Literature": 25
+    },
+    {
+        "Math": 19,
+        "Literature": 11
+    },
+    {
+        "Math": 25,
+        "Literature": 70
+    },
+    {
+        "Math": 25,
+        "Literature": 85
+    },
+    {
+        "Math": 39,
+        "Literature": 89
+    },
+    {
+        "Math": 70,
+        "Literature": 13
+    },
+    {
+        "Math": 71,
+        "Literature": 60
+    },
+    {
+        "Math": 24,
+        "Literature": 79
+    },
+    {
+        "Math": 69,
+        "Literature": 5
+    },
+    {
+        "Math": 69,
+        "Literature": 34
+    },
+    {
+        "Math": 8,
+        "Literature": 13
+    },
+    {
+        "Math": 75,
+        "Literature": 19
+    },
+    {
+        "Math": 13,
+        "Literature": 89
+    },
+    {
+        "Math": 69,
+        "Literature": 84
+    },
+    {
+        "Math": 90,
+        "Literature": 61
+    },
+    {
+        "Math": 12,
+        "Literature": 80
+    },
+    {
+        "Math": 19,
+        "Literature": 90
+    },
+    {
+        "Math": 59,
+        "Literature": 75
+    },
+    {
+        "Math": 16,
+        "Literature": 84
+    },
+    {
+        "Math": 11,
+        "Literature": 30
+    },
+    {
+        "Math": 92,
+        "Literature": 38
+    },
+    {
+        "Math": 37,
+        "Literature": 15
+    },
+    {
+        "Math": 41,
+        "Literature": 67
+    },
+    {
+        "Math": 19,
+        "Literature": 96
+    },
+    {
+        "Math": 81,
+        "Literature": 62
+    },
+    {
+        "Math": 27,
+        "Literature": 64
+    },
+    {
+        "Math": 9,
+        "Literature": 10
+    },
+    {
+        "Math": 90,
+        "Literature": 86
+    },
+    {
+        "Math": 19,
+        "Literature": 55
+    },
+    {
+        "Math": 79,
+        "Literature": 66
+    },
+    {
+        "Math": 40,
+        "Literature": 9
+    },
+    {
+        "Math": 31,
+        "Literature": 30
+    },
+    {
+        "Math": 18,
+        "Literature": 42
+    },
+    {
+        "Math": 68,
+        "Literature": 16
+    },
+    {
+        "Math": 23,
+        "Literature": 20
+    },
+    {
+        "Math": 28,
+        "Literature": 96
+    },
+    {
+        "Math": 66,
+        "Literature": 21
+    },
+    {
+        "Math": 73,
+        "Literature": 75
+    },
+    {
+        "Math": 25,
+        "Literature": 67
+    },
+    {
+        "Math": 74,
+        "Literature": 17
+    },
+    {
+        "Math": 25,
+        "Literature": 8
+    },
+    {
+        "Math": 22,
+        "Literature": 62
+    },
+    {
+        "Math": 10,
+        "Literature": 75
+    },
+    {
+        "Math": 75,
+        "Literature": 42
+    },
+    {
+        "Math": 26,
+        "Literature": 34
+    },
+    {
+        "Math": 11,
+        "Literature": 61
+    },
+    {
+        "Math": 28,
+        "Literature": 25
+    },
+    {
+        "Math": 73,
+        "Literature": 54
+    },
+    {
+        "Math": 68,
+        "Literature": 12
+    },
+    {
+        "Math": 75,
+        "Literature": 60
+    },
+    {
+        "Math": 84,
+        "Literature": 87
+    },
+    {
+        "Math": 20,
+        "Literature": 45
+    },
+    {
+        "Math": 80,
+        "Literature": 79
+    },
+    {
+        "Math": 17,
+        "Literature": 85
+    },
+    {
+        "Math": 25,
+        "Literature": 80
+    },
+    {
+        "Math": 78,
+        "Literature": 12
+    },
+    {
+        "Math": 68,
+        "Literature": 28
+    },
+    {
+        "Math": 62,
+        "Literature": 8
+    },
+    {
+        "Math": 27,
+        "Literature": 84
+    },
+    {
+        "Math": 23,
+        "Literature": 27
+    },
+    {
+        "Math": 37,
+        "Literature": 57
+    },
+    {
+        "Math": 73,
+        "Literature": 19
+    },
+    {
+        "Math": 11,
+        "Literature": 14
+    },
+    {
+        "Math": 66,
+        "Literature": 21
+    },
+    {
+        "Math": 35,
+        "Literature": 31
+    },
+    {
+        "Math": 28,
+        "Literature": 90
+    },
+    {
+        "Math": 16,
+        "Literature": 90
+    },
+    {
+        "Math": 38,
+        "Literature": 38
+    },
+    {
+        "Math": 64,
+        "Literature": 65
+    },
+    {
+        "Math": 27,
+        "Literature": 92
+    },
+    {
+        "Math": 26,
+        "Literature": 19
+    },
+    {
+        "Math": 89,
+        "Literature": 36
+    },
+    {
+        "Math": 25,
+        "Literature": 41
+    },
+    {
+        "Math": 76,
+        "Literature": 22
+    },
+    {
+        "Math": 66,
+        "Literature": 92
+    },
+    {
+        "Math": 63,
+        "Literature": 7
+    },
+    {
+        "Math": 71,
+        "Literature": 87
+    },
+    {
+        "Math": 67,
+        "Literature": 85
+    },
+    {
+        "Math": 67,
+        "Literature": 85
+    },
+    {
+        "Math": 25,
+        "Literature": 53
+    },
+    {
+        "Math": 23,
+        "Literature": 82
+    },
+    {
+        "Math": 26,
+        "Literature": 32
+    },
+    {
+        "Math": 57,
+        "Literature": 33
+    },
+    {
+        "Math": 76,
+        "Literature": 7
+    },
+    {
+        "Math": 26,
+        "Literature": 37
+    },
+    {
+        "Math": 9,
+        "Literature": 60
+    },
+    {
+        "Math": 75,
+        "Literature": 9
+    },
+    {
+        "Math": 8,
+        "Literature": 37
+    },
+    {
+        "Math": 10,
+        "Literature": 17
+    },
+    {
+        "Math": 27,
+        "Literature": 20
+    },
+    {
+        "Math": 23,
+        "Literature": 17
+    },
+    {
+        "Math": 22,
+        "Literature": 21
+    },
+    {
+        "Math": 65,
+        "Literature": 63
+    },
+    {
+        "Math": 72,
+        "Literature": 90
+    },
+    {
+        "Math": 23,
+        "Literature": 14
+    },
+    {
+        "Math": 26,
+        "Literature": 77
+    },
+    {
+        "Math": 60,
+        "Literature": 67
+    },
+    {
+        "Math": 60,
+        "Literature": 61
+    },
+    {
+        "Math": 22,
+        "Literature": 14
+    },
+    {
+        "Math": 17,
+        "Literature": 62
+    },
+    {
+        "Math": 25,
+        "Literature": 33
+    },
+    {
+        "Math": 79,
+        "Literature": 61
+    },
+    {
+        "Math": 69,
+        "Literature": 19
+    },
+    {
+        "Math": 71,
+        "Literature": 88
+    },
+    {
+        "Math": 79,
+        "Literature": 34
+    },
+    {
+        "Math": 88,
+        "Literature": 70
+    },
+    {
+        "Math": 37,
+        "Literature": 85
+    },
+    {
+        "Math": 79,
+        "Literature": 91
+    },
+    {
+        "Math": 77,
+        "Literature": 25
+    },
+    {
+        "Math": 27,
+        "Literature": 32
+    },
+    {
+        "Math": 37,
+        "Literature": 62
+    },
+    {
+        "Math": 27,
+        "Literature": 38
+    },
+    {
+        "Math": 45,
+        "Literature": 75
+    },
+    {
+        "Math": 70,
+        "Literature": 56
+    },
+    {
+        "Math": 41,
+        "Literature": 30
+    },
+    {
+        "Math": 61,
+        "Literature": 75
+    },
+    {
+        "Math": 27,
+        "Literature": 36
+    }
+]
